@@ -1,0 +1,67 @@
+       01  MAPTESTI.
+           02  FILLER PIC X(12).
+           02  DELTL    COMP  PIC  S9(4).
+           02  DELTF    PICTURE X.
+           02  FILLER REDEFINES DELTF.
+             03 DELTA    PICTURE X.
+           02  DELTI  PIC X(30).
+           02  IDL    COMP  PIC  S9(4).
+           02  IDF    PICTURE X.
+           02  FILLER REDEFINES IDF.
+             03 IDA    PICTURE X.
+           02  IDI  PIC X(5).
+           02  NOMEL    COMP  PIC  S9(4).
+           02  NOMEF    PICTURE X.
+           02  FILLER REDEFINES NOMEF.
+             03 NOMEA    PICTURE X.
+           02  NOMEI  PIC X(30).
+           02  SETORL    COMP  PIC  S9(4).
+           02  SETORF    PICTURE X.
+           02  FILLER REDEFINES SETORF.
+             03 SETORA    PICTURE X.
+           02  SETORI  PIC X(4).
+           02  SALL    COMP  PIC  S9(4).
+           02  SALF    PICTURE X.
+           02  FILLER REDEFINES SALF.
+             03 SALA    PICTURE X.
+           02  SALI  PIC X(10).
+           02  DATADML    COMP  PIC  S9(4).
+           02  DATADMF    PICTURE X.
+           02  FILLER REDEFINES DATADMF.
+             03 DATADMA    PICTURE X.
+           02  DATADMI  PIC X(10).
+           02  FORML    COMP  PIC  S9(4).
+           02  FORMF    PICTURE X.
+           02  FILLER REDEFINES FORMF.
+             03 FORMA    PICTURE X.
+           02  FORMI  PIC X(10).
+           02  EMAILL    COMP  PIC  S9(4).
+           02  EMAILF    PICTURE X.
+           02  FILLER REDEFINES EMAILF.
+             03 EMAILA    PICTURE X.
+           02  EMAILI  PIC X(40).
+           02  MSGL    COMP  PIC  S9(4).
+           02  MSGF    PICTURE X.
+           02  FILLER REDEFINES MSGF.
+             03 MSGA    PICTURE X.
+           02  MSGI  PIC X(40).
+       01  MAPTESTO REDEFINES MAPTESTI.
+           02  FILLER PIC X(12).
+           02  FILLER PICTURE X(3).
+           02  DELTO  PIC X(30).
+           02  FILLER PICTURE X(3).
+           02  IDO PIC 9(05).
+           02  FILLER PICTURE X(3).
+           02  NOMEO  PIC X(30).
+           02  FILLER PICTURE X(3).
+           02  SETORO  PIC X(4).
+           02  FILLER PICTURE X(3).
+           02  SALO  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  DATADMO  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  FORMO  PIC X(10).
+           02  FILLER PICTURE X(3).
+           02  EMAILO  PIC X(40).
+           02  FILLER PICTURE X(3).
+           02  MSGO  PIC X(40).

@@ -1,0 +1,8 @@
+       01 WRK-ARQVSAM.
+          02 ARQ-CHAVE   PIC X(5).
+          02 ARQ-NOME    PIC X(30).
+          02 ARQ-SETOR   PIC X(04).
+          02 ARQ-SALARIO PIC X(10).
+          02 ARQ-DATAADM PIC X(10).
+          02 ARQ-EMAIL   PIC X(40).
+
